@@ -20,7 +20,7 @@ namespace MuffleSpeech {
 			}
 		}
 		if(aFileMap->Map.size() == 0) {
-			std::cout << "No profiles found, exiting.\n";
+			std::cout << "\nNo profiles found, exiting.\n";
 		}
 	}
 	void PrintFiles(const FileMap* aFileMap) {
