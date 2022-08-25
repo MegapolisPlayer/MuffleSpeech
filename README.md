@@ -16,7 +16,7 @@ This project works as follows:
            
                      ...and you recieve a muffled output.
                     
-That's the simple version. However, you can always input the _HELP command.
+That's the simple version. However, you can always get help with the _HELP command.
 
 # Contents
 This project includes all the source code. For the releases, check the releases tab. Development releases are usually only for Linux.
