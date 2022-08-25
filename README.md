@@ -24,7 +24,8 @@ To say that this project is not optimized is an understatment. This was slapped 
 [![CC BY 4.0][cc-by-image]][cc-by]
 
 # More TPM Projects
-For more TPM projects, please visit tpmdev.tk
+For more TPM projects, please visit tpmdev.tk.
+
 If you want to see the release TPM build, click here: https://github.com/TMP-Development/MuffleSpeech/
 
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
