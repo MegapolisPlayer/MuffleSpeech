@@ -11,7 +11,7 @@ Originally developed as a prototype for a larger project, this project is basica
 This project includes all the source code. For the releases, check the releases tab. Development releases are usually only for Linux.
 
 # License
-by TPM/MegapolisPlayer
+by TMP/MegapolisPlayer
 
 
 This work is licensed under a
