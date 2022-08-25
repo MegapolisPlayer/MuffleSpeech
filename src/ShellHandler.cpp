@@ -3,7 +3,7 @@
 namespace GlobalVariables {
 	RawStr DeveloperName = "Martin";
 	RawStr DeveloperGroupName = "MegapolisPlayer";
-#ifdef _WIN64
+#ifdef _WIN32
 	RawStr ConfigName = "Windows x64";
 #else
 	RawStr ConfigName = "Linux x64";
@@ -28,7 +28,7 @@ namespace MFShell {
 		          "|________________________________________________________________|\n"
 		          << "MuffleSpeech " << GlobalVariables::Version << " (" << GlobalVariables::ConfigName
 		          << ")\nby " << GlobalVariables::DeveloperGroupName << "/" << GlobalVariables::DeveloperName << ", " << GlobalVariables::Year
-		          << "\nMuffleSpeech © 2022 by MegapolisPlayer is licensed under CC BY 4.0.\n";
+		          << "\nMuffleSpeech (c) 2022 by MegapolisPlayer is licensed under CC BY 4.0.\n";
 	}
 	void Help() {
 		std::cout << "MuffleSpeech HELP:\n"
