@@ -26,7 +26,7 @@ To say that this project is not optimized is an understatment. This was slapped 
 # More TMP Projects
 For more TMP projects, please visit tpmdev.tk.
 
-If you want to see the release TPM build, click here: https://github.com/TMP-Development/MuffleSpeech/
+If you want to see the official release TMP build, click here: https://github.com/TMP-Development/MuffleSpeech/
 
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
