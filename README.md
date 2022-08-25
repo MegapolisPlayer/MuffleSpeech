@@ -9,6 +9,7 @@ Originally developed as a prototype for a larger project, this project is basica
 
 # Contents
 This project includes all the source code. For the releases, check the releases tab. Development releases are usually only for Linux.
+Official TMP releases that work on Windows can be found here: https://github.com/TMP-Development/MuffleSpeech/
 
 # License
 by TMP/MegapolisPlayer
@@ -24,9 +25,7 @@ To say that this project is not optimized is an understatment. This was slapped 
 [![CC BY 4.0][cc-by-image]][cc-by]
 
 # More TMP Projects
-For more TMP projects, please visit tpmdev.tk.
-
-If you want to see the official release TMP build, click here: https://github.com/TMP-Development/MuffleSpeech/
+For more TMP projects, please visit tpmdev.tk or the TMP GitHub repositories.
 
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
