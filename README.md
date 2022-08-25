@@ -4,7 +4,7 @@
 a speech muffler
 
 # Welcome
-Welcome to the TPM/MuffleSpeech project.
+Welcome to the TMP/MuffleSpeech project.
 Originally developed as a prototype for a larger project, this project is basically a character changer.
 
 # In project
@@ -23,8 +23,8 @@ To say that this project is not optimized is an understatment. This was slapped 
 
 [![CC BY 4.0][cc-by-image]][cc-by]
 
-# More TPM Projects
-For more TPM projects, please visit tpmdev.tk.
+# More TMP Projects
+For more TMP projects, please visit tpmdev.tk.
 
 If you want to see the release TPM build, click here: https://github.com/TMP-Development/MuffleSpeech/
 
