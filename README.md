@@ -28,6 +28,9 @@ That's basically it. For the syntax you will have to call _HELP from the interna
 # Contents
 This project includes all the source code. For the releases, check the releases tab. Development releases are usually only for Linux.
 
+# Releases
+This project will have monthly releases with some, usually small, improvments. Patches are exempt from this rule.
+
 # License
 by MegapolisPlayer
 
