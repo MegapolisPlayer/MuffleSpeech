@@ -20,11 +20,11 @@ This work is licensed under a
 # Notes and warnings
 To say that this project is not optimized is an understatment. This was slapped together in a few days and is based off an older prototype which was written in under an hour. Obviously this is not optimized for maximum performace.
 
-# More TPM Projects
-For more TPM projects, please visit tpmdev.tk
-
 
 [![CC BY 4.0][cc-by-image]][cc-by]
+
+# More TPM Projects
+For more TPM projects, please visit tpmdev.tk
 
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
