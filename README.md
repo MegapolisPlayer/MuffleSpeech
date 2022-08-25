@@ -16,7 +16,14 @@ This project works as follows:
            
                      ...and you recieve a muffled output.
                     
-That's the simple version. However, you can always get help with the _HELP command.
+That's basically it. For the syntax you will have to call _HELP from the internal shell.
+
+    (_E, _Q) _EXIT or _QUIT - Exit application
+	(_H) _HELP - display this menu
+    (_R) _RELOAD - reload character map
+	(_A) _ABOUT - about the application
+	Any other string not beginning with _ will be muffled according to the current loaded profile.
+	The command in brackets is the shortened form.
 
 # Contents
 This project includes all the source code. For the releases, check the releases tab. Development releases are usually only for Linux.
