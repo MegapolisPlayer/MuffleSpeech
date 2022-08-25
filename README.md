@@ -11,8 +11,11 @@ Originally developed as a prototype for a larger project, this project is basica
 This project works as follows:
 
 You load a profile...
+
            ...input a string...
+           
                     ...and you recieve a muffled output.
+                    
 That's the simple version. However, you can always input the _HELP command.
 
 # Contents
