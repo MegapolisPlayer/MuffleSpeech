@@ -26,7 +26,8 @@ That's basically it. For the syntax you will have to call _HELP from the interna
 	The commands in brackets is the shortened form.
 
 # Contents
-This project includes all the source code. For the releases, check the releases tab. Development releases are usually only for Linux.
+This project includes all the source code. For the releases, check the releases tab. Development releases are usually only for Linux, but Releases not marked as dev releases are compatible with Windows.
+
 
 # Releases
 This project will have monthly releases with some, usually small, improvments. Patches are exempt from this rule.
