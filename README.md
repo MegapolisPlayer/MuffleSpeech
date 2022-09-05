@@ -30,7 +30,7 @@ This project includes all the source code. For the releases, check the releases 
 
 
 # Releases
-This project will have monthly releases with some, usually small, improvments. Patches are exempt from this rule.
+This project will have quarterly release always with some, usually small, improvements. Patches are exempt from this rule.
 
 # License
 by MegapolisPlayer
@@ -40,7 +40,7 @@ This work is licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by].
 
 # Notes and warnings
-To say that this project is not optimized is an understatment. This was slapped together in a few days and is based off an older prototype which was written in under an hour. Obviously this is not optimized for maximum performace. This is actually one of the reasons i'm publishing this here, it's so that you - the community can improve on this.
+To say that this project is not optimized is an understatment. This was slapped together in a few days and is based off an older prototype which was written in under an hour. Obviously this is not optimized for maximum performace. This is actually one of the reasons i'm publishing this here, it's so that you - the community - can improve on this.
 
 [![CC BY 4.0][cc-by-image]][cc-by]
 
