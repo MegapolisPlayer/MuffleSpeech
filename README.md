@@ -30,7 +30,7 @@ This project includes all the source code. For the releases, check the releases 
 
 
 # Releases
-This project will have quarterly release always with some, usually small, improvements. Patches are exempt from this rule.
+This project will have quarterly releases always with some, usually small, improvements. Patches are exempt from this rule.
 
 # License
 by MegapolisPlayer
