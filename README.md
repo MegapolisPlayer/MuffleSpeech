@@ -28,6 +28,8 @@ That's basically it. For the syntax you will have to call _HELP from the interna
 # Contents
 This project includes all the source code. For the releases, check the releases tab. Development releases are usually only for Linux, but Releases not marked as dev releases are compatible with Windows.
 
+# GUI
+This project will, at some point, have a GUI. It, however, will be closed-source. It will still be free and published in this repository, but the code itself will be running on my custom closed-source framework.
 
 # Releases
 This project will have quarterly releases always with some, usually small, improvements. Patches are exempt from this rule.
