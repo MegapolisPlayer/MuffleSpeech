@@ -1,6 +1,6 @@
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
-![MuffleSpeech Background](http://url/to/img.png)
+![MuffleSpeech Background](https://raw.githubusercontent.com/MegapolisPlayer/MuffleSpeech/main/backgroundMS.png)
 
 # MuffleSpeech
 a speech muffler
