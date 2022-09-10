@@ -1,5 +1,7 @@
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
+![MuffleSpeech Background](http://url/to/img.png)
+
 # MuffleSpeech
 a speech muffler
 
