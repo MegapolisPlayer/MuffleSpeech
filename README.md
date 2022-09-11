@@ -37,7 +37,7 @@ This project will, at some point, have a GUI. It, however, will be closed-source
 This project does not have any release schedule - if I find a bug I usually try to fix as soon as possible.
 
 # Compiling
-If you were to compile this application, on Linux it is absolutely straight-forward, just compile like you compiling anything else.
+If you were to compile this application, both on Linux and Windows it is absolutely straight-forward, just compile like you compiling anything else.
 
 If you are compiling for Windows on Linux - just don't forget to write the following arguments into the linker:
 
@@ -45,9 +45,13 @@ If you are compiling for Windows on Linux - just don't forget to write the follo
     
 This links the C++ standard library statically which **will** save you a lot of hassle.
 
+I would also recommend some kind of IDE, since there are a few files and it is better when you don't have to link neach and every one of them.
+
+# Contributing
+Feel free to contribute to this project! However, I would like to ask you to not commit directly to the main branch. Also if you were to contribute, don't forget to add your name in the `AppInfo` struct in the developer member variable.
+
 # License
 by MegapolisPlayer
-
 
 This work is licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by].
