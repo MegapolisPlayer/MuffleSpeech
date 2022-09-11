@@ -34,7 +34,18 @@ This project includes all the source code. For the releases, check the releases 
 This project will, at some point, have a GUI. It, however, will be closed-source. It will still be free and published in this repository, but the code itself will be running on my custom closed-source framework.
 
 # Releases
-This project will have quarterly releases always with some, usually small, improvements. Patches are exempt from this rule.
+This project does not have any release schedule - if I find a bug I usually try to fix as soon as possible.
+
+# Compiling
+If you were to compile this application, on Linux it is absolutely straight-forward, just compile like you compiling anything else.
+
+If you are compiling for Windows on Linux - just don't forget to write the following arguments into the linker:
+
+    -static;-static-libc++;
+    
+This links the C++ standard library (clang edition) statically which **will** save you a lot of hassle.
+
+If you, for some weird reason, want to use the GCC version just change 'libc++' with 'libstdc++'.
 
 # License
 by MegapolisPlayer
