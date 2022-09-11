@@ -45,7 +45,7 @@ If you are compiling for Windows on Linux - just don't forget to write the follo
     
 This links the C++ standard library statically which **will** save you a lot of hassle.
 
-I would also recommend some kind of IDE, since there are a few files and it is better when you don't have to link neach and every one of them.
+I would also recommend some kind of IDE, since there are quite a few files and it is better when you don't have to link each and every one of them.
 
 # Contributing
 Feel free to contribute to this project! However, I would like to ask you to not commit directly to the main branch. Also if you were to contribute, don't forget to add your name in the `AppInfo` struct in the developer member variable.
