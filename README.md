@@ -20,12 +20,12 @@ This project works as follows:
                     
 That's basically it. For the syntax you will have to call _HELP from the internal shell.
 
-    (_E, _Q) _EXIT or _QUIT - Exit application
-	(_H) _HELP - display this menu
+    (_H) _HELP - display this menu
     (_R) _RELOAD - reload character map
-	(_A) _ABOUT - about the application
+    (_A) _ABOUT - about the application
+    (_E, _Q) _EXIT or _QUIT - Exit application
 	Any other string not beginning with _ will be muffled according to the current loaded profile.
-	The commands in brackets are the shortened form.
+	The commands in brackets are the shortened variation.
 
 # Contents
 This project includes all the source code. For the releases, check the releases tab. Development releases are usually only for Linux, but Releases not marked as dev releases are compatible with Windows.
