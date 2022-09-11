@@ -43,9 +43,7 @@ If you are compiling for Windows on Linux - just don't forget to write the follo
 
     -static;-static-libstdc++;-static-libgcc
     
-This links the C++ standard library (clang edition) statically which **will** save you a lot of hassle.
-
-If you, for some weird reason, want to use the GCC version just change 'libc++' with 'libstdc++'.
+This links the C++ standard library statically which **will** save you a lot of hassle.
 
 # License
 by MegapolisPlayer
