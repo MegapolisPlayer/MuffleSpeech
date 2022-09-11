@@ -27,7 +27,7 @@ That's basically it. For the syntax you will have to call _HELP from the interna
     (_R) _RELOAD - reload character map
 	(_A) _ABOUT - about the application
 	Any other string not beginning with _ will be muffled according to the current loaded profile.
-	The commands in brackets is the shortened form.
+	The commands in brackets are the shortened form.
 
 # Contents
 This project includes all the source code. For the releases, check the releases tab. Development releases are usually only for Linux, but Releases not marked as dev releases are compatible with Windows.
