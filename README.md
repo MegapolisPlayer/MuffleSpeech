@@ -9,8 +9,6 @@ a speech muffler
 Welcome to the MuffleSpeech project.
 Originally developed as a prototype for a larger project, this project is basically a character changer.
 
-**Note:** Some antiviruses (most notably Windows Defender) might flag this software as a trojan. For information: This program does not contact any IPs.
-
 # Usage
 This project works as follows:
 
