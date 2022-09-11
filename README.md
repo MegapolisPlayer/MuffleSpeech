@@ -41,7 +41,7 @@ If you were to compile this application, on Linux it is absolutely straight-forw
 
 If you are compiling for Windows on Linux - just don't forget to write the following arguments into the linker:
 
-    -static;-static-libc++;
+    -static;-static-libstdc++;-static-libgcc
     
 This links the C++ standard library (clang edition) statically which **will** save you a lot of hassle.
 
