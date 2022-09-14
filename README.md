@@ -34,7 +34,15 @@ This project includes all the source code. For the releases, check the releases 
 This project will, at some point, have a GUI. It, however, will be closed-source. It will still be free and published in this repository, but the code itself will be running on my custom closed-source framework.
 
 # Releases
-This project does not have any release schedule - if I find a bug I usually try to fix as soon as possible.
+This project has (with some exceptions) a monthly release schedule. This rule doesn't apply to patches and bug-fix releases.
+
+This project will NOT have a release in the following months:
+
+	January (New Year, school ramping up again)
+	
+	June, July (Holidays)
+	
+	August (might sometimes, Holidays)
 
 # Compiling
 If you were to compile this application, both on Linux and Windows it is absolutely straight-forward, just compile like you compiling anything else.
@@ -58,6 +66,16 @@ This work is licensed under a
 
 # Notes and warnings
 To say that this project is not optimized is an understatment. This was slapped together in a few days and is based off an older prototype which was written in under an hour. Obviously this is not optimized for maximum performace. This is actually one of the reasons i'm publishing this here, it's so that you - the community - can improve on this.
+
+# Version History
+
+**Upcoming**  1.2.0, approx. 10.10.2022
+
+**Current**   1.1.0, (b5)    11.09.2022
+
+**Past**      1.0.0, (b4)    25.08.2022
+
+**Prototype** 0.0.0, (b0)    15.08.2022	
 
 [![CC BY 4.0][cc-by-image]][cc-by]
 
