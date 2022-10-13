@@ -18,31 +18,13 @@ This project works as follows:
            
                      ...and you recieve a muffled output.
                     
-That's basically it. For the syntax you will have to call _HELP from the internal shell.
-
-    (_H) _HELP - display this menu
-    (_R) _RELOAD - reload character map
-    (_A) _ABOUT - about the application
-    (_E, _Q) _EXIT or _QUIT - Exit application
-	Any other string not beginning with _ will be muffled according to the current loaded profile.
-	The commands in brackets are the shortened variation.
+That's basically it. For the syntax you will have to call HELP from the internal shell.
 
 # Contents
 This project includes all the source code. For the releases, check the releases tab. Development releases are usually only for Linux, but Releases not marked as dev releases are compatible with Windows.
 
-# GUI
-This project will, at some point, have a GUI. It, however, will be closed-source. It will still be free and published in this repository, but the code itself will be running on my custom closed-source framework.
-
 # Releases
-This project has (with some exceptions) a monthly release schedule. This rule doesn't apply to patches and bug-fix releases.
-
-This project will NOT have a release in the following months:
-
-	January (New Year, school ramping up again)
-	
-	June, July (Holidays)
-	
-	August (might sometimes, Holidays)
+This is the last release. For reasoning, please check the release page for 2.0.0.
 
 # Compiling
 If you were to compile this application, both on Linux and Windows it is absolutely straight-forward, just compile like you compiling anything else.
@@ -69,12 +51,12 @@ To say that this project is not optimized is an understatment. This was slapped 
 
 # Version History
 
-**Upcoming**  1.2.0, approx. 10.10.2022
+**Current**  2.0.0,          13.10.2022
 
-**Current**   1.1.0, (b5)    11.09.2022
+**Past**      1.1.0, (b5)    11.09.2022
 
-**Past**      1.0.0, (b4)    25.08.2022
-
+              1.0.0, (b4)    25.08.2022
+ 
 **Prototype** 0.0.0, (b0)    15.08.2022	
 
 [![CC BY 4.0][cc-by-image]][cc-by]
