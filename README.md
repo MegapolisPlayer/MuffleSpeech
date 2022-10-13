@@ -5,6 +5,9 @@
 # MuffleSpeech
 a speech muffler
 
+# WARNING
+Some antiviruses might detect these programs as viruses. These are false positives.
+
 # Welcome
 Welcome to the MuffleSpeech project.
 Originally developed as a prototype for a larger project, this project is basically a character changer.
