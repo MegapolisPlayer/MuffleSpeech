@@ -67,7 +67,7 @@ namespace MuffleSpeech {
 	
 	//Contributing? Add your name here!
 	//MAKE SURE TO PLEASE SEPARATE YOUR NAMES BY MEWLINE
-	const MFSPInfo MuffleSpeechInfo("Core", "2.0.0", "Commander-in-chief", __DATE__, "Martin/MegapolisPlayer",
+	const MFSPInfo MuffleSpeechInfo("Core", "2.0.1", "Commander-in-chief", __DATE__, "Martin/MegapolisPlayer",
 	                                ""
 	                                ""
 	                                "" //here
@@ -78,12 +78,15 @@ namespace MuffleSpeech {
 		//on linux: first argument command
 		//on windows: first argument directory of exe
 		for(int lId = 1; lId < argc; lId++) {
-			if(strcmp(argv[lId], "-disable_art") == 0)
+			if(strcmp(argv[lId], "-disable_art") == 0) {
 				lArgs.DisableAsciiArt = true;
-			elif(strcmp(argv[lId], "-nostat") == 0)
-			lArgs.DisableStats = true;
-			else
+			}
+			elif(strcmp(argv[lId], "-nostat") == 0) {
+				lArgs.DisableStats = true;
+			}
+			else {
 				std::cout << "WARNING: no argument " << argv[lId] << "\n";
+			}
 		}
 		return lArgs;
 	}
