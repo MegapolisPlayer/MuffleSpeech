@@ -14,6 +14,15 @@ int main(int argc, char* argv[]) {
 	MuffleSpeech::File lFile;
 	
 	MuffleSpeech::Shell::About(&lArgs);
+	
+	if(!lArgs.DisableStats) {
+		lFile.Open("mfsp.sts");
+		if(lStats.Load(&lFile) == -1) {
+			MuffleSpeech::Exit(EXIT_FAILURE);
+		}
+		lFile.Close();
+	}
+	
 	MuffleSpeech::Shell::DetectLoadFile(&lCm, &lFile);
 	
 	lStats.Increment(MuffleSpeech::StatisticsValue::AMOUNT_OPENED);
@@ -28,6 +37,7 @@ int main(int argc, char* argv[]) {
 		
 		if(lInput == "APPLY") {
 			lCm.Apply(&MuffleSpeech::MFSP_STRBUF, &MuffleSpeech::MFSP_FINBUF);
+			lStats.Add(MuffleSpeech::StatisticsValue::CHARS_PROCESSED, MuffleSpeech::MFSP_FINBUF.GetAllocAmount());
 		}
 		elif(lInput == "STRBUF") {
 			MuffleSpeech::MFSP_STRBUF.Append(MuffleSpeech::Shell::PromptAppend("STRBUF"));
@@ -70,8 +80,9 @@ int main(int argc, char* argv[]) {
 					MuffleSpeech::MFSP_FINBUF.Save(&lFile); break;
 				case('E'): case('e'):
 					MuffleSpeech::MFSP_ECHOBUF.Save(&lFile); break;
-				default: lFile.Close(); break;
+				default: break;
 			}
+			lFile.Close();
 		}
 		elif(lInput == "PRINT") { MuffleSpeech::MFSP_ECHOBUF.Print(); std::putchar('\n'); } //prints echobuf
 		elif(lInput == "RELOAD") {
@@ -91,10 +102,13 @@ int main(int argc, char* argv[]) {
 		else { std::cout << "Command \"" << lInput << "\" not found. Did you mean " << MuffleSpeech::Shell::gConsoleCommands[MuffleSpeech::Shell::FindMostSimilar(lInput.c_str(), MuffleSpeech::Shell::gConsoleCommands, MuffleSpeech::Shell::gConsoleCommandsAmount)] << "?\n"; loopover; }
 	}
 	if(!lArgs.DisableStats) {
+		std::cout << "Saving statistics...\n";
 		lFile.Open("mfsp.sts");
-		lStats.Save(&lFile);
+		if(lStats.Save(&lFile) == -1) {
+			MuffleSpeech::Exit(EXIT_FAILURE);
+		}
 		lFile.Close();
 	}
 	
-	MuffleSpeech::Exit(0);
+	MuffleSpeech::Exit(EXIT_SUCCESS);
 }
