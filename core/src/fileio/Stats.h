@@ -39,8 +39,9 @@ namespace MuffleSpeech {
 		void Add(StatisticsValue aMember, uint64_t aValueAdd);
 		void Increment(StatisticsValue aMember);
 		
-		void Load(File* aFile);
-		void Save(File* aFile);
+		//returns -1 on fail
+		int8_t Load(File* aFile);
+		int8_t Save(File* aFile);
 		
 		~Statistics();
 	};
