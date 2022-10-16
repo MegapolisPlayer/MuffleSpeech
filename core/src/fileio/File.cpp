@@ -85,10 +85,8 @@ namespace MuffleSpeech {
 		this->mFileStream << aString << "\n";
 	}
 	
-	void File::Empty() {
-		if(this->mFileStream.is_open()) {
-			return this->mFileStream.close();
-		}
+	void File::Empty() { //here issue
+		if(this->mFileStream.is_open()) { this->mFileStream.close(); }
 		this->mFileStream.open(this->mFileName, std::ios::in | std::ios::out | std::ios::binary | std::ios::trunc); //overwrite
 	}
 	
