@@ -4,7 +4,7 @@ namespace MuffleSpeech {
 	namespace Shell {
 		//Contributing on the shell? Add your name here!
 		//MAKE SURE TO PLEASE SEPARATE YOUR NAMES BY MEWLINE
-		const MFSPInfo gShInfo("Shell", "2.0.0", "Commander-in-chief", __DATE__, "Martin/MegapolisPlayer",
+		const MFSPInfo gShInfo("Shell", "2.0.1", "Commander-in-chief", __DATE__, "Martin/MegapolisPlayer",
 		                       ""
 		                       ""
 		                       "" //here
