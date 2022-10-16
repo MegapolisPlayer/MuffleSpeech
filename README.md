@@ -7,6 +7,7 @@ a speech muffler
 
 # WARNING
 Some antiviruses might detect these programs as viruses. These are false positives.
+This repository is not maintained anymore. Browse at your own risk.
 
 # Welcome
 Welcome to the MuffleSpeech project.
@@ -50,17 +51,19 @@ This work is licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by].
 
 # Notes and warnings
-To say that this project is not optimized is an understatment. This was slapped together in a few days and is based off an older prototype which was written in under an hour. Obviously this is not optimized for maximum performace. This is actually one of the reasons i'm publishing this here, it's so that you - the community - can improve on this.
+To say that this project is not optimized is an understatment. This was slapped together in a few days and is based off an older prototype which was written in under an hour. Obviously this is not optimized for maximum performace. This is actually one of the reasons I'm publishing this here, it's so that you - the community - can improve on this.
 
 # Version History
 
-**Current**  2.0.0,          13.10.2022
+**Current**   2.0.1          16.10.2022
 
-**Past**      1.1.0, (b5)    11.09.2022
+**Past**      2.0.0,         13.10.2022
+
+              1.1.0, (b5)    11.09.2022
 
               1.0.0, (b4)    25.08.2022
  
-**Prototype** 0.0.0, (b0)    15.08.2022	
+**Prototype** 0.0.0, (b1)    15.08.2022	
 
 [![CC BY 4.0][cc-by-image]][cc-by]
 
