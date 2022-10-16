@@ -51,14 +51,33 @@ namespace MuffleSpeech {
 		}
 	}
 	
-	void Statistics::Load(File* aFile) {
+	int8_t Statistics::Load(File* aFile) {
+		if(!aFile->IsOpen()) {
+			ScopedColor lSC(COLOR_RED);
+			std::cout << "Error: File " << aFile->GetFilename() << " does not exist.\n";
+			return -1;
+		}
 		aFile->ResetRead(); //set to beginning
-		aFile->LoadFile();
+		std::string lTemp;
+		for(uint8_t lId = 0; lId < 6; lId++) {
+			lTemp = aFile->LoadLine();
+			if(IsNumber(lTemp) && !lTemp.empty()) { this->Stats[lId] = std::stoi(lTemp); }
+			else {
+				ScopedColor lSC(COLOR_RED);
+				std::cout << "Error: Line " << uint16_t(lId) << " of mfsp.sts is not a number.\n";
+				return -1;
+			}
+		}
+		aFile->ResetRead();
+		return 0;
 	}
-	void Statistics::Save(File* aFile) {
+	int8_t Statistics::Save(File* aFile) {
+		aFile->Empty(); //will also create the file
+		aFile->ResetRead();
 		for(uint8_t lId = 0; lId < 6; lId++) {
 			aFile->AppendNL(std::to_string(this->Stats[lId]));
 		}
+		return 0;
 	}
 	
 	Statistics::~Statistics() {
