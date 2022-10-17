@@ -64,7 +64,7 @@ namespace MuffleSpeech {
 			if(IsNumber(lTemp) && !lTemp.empty()) { this->Stats[lId] = std::stoi(lTemp); }
 			else {
 				ScopedColor lSC(COLOR_RED);
-				std::cout << "Error: Line " << uint16_t(lId) << " of mfsp.sts is not a number.\n";
+				std::cout << "Error: Line " << uint16_t(lId) << " of mfsp.sts is not a number.\nLine value: " << lTemp << ", line size: " << lTemp << "\n";
 				return -1;
 			}
 		}
