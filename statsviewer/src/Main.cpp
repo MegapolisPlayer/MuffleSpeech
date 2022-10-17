@@ -82,7 +82,7 @@ int main(void) {
 				std::cout << "characters processed";
 				break;
 			case(3):
-				std::cout << "times _BUF_OPEN called";
+				std::cout << "times buffer was appended";
 				break;
 			case(4):
 				std::cout << "times the HELP menu was opened";
