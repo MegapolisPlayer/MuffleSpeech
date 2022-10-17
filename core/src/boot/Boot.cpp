@@ -67,7 +67,7 @@ namespace MuffleSpeech {
 	
 	//Contributing? Add your name here!
 	//MAKE SURE TO PLEASE SEPARATE YOUR NAMES BY MEWLINE
-	const MFSPInfo MuffleSpeechInfo("Core", "2.0.1", "Commander-in-chief", __DATE__, "Martin/MegapolisPlayer",
+	const MFSPInfo MuffleSpeechInfo("Core", "2.0.2", "Commander-in-chief", __DATE__, "Martin/MegapolisPlayer",
 	                                ""
 	                                ""
 	                                "" //here
