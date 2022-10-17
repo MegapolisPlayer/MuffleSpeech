@@ -55,9 +55,13 @@ To say that this project is not optimized is an understatment. This was slapped 
 
 # Version History
 
-**Current**   2.0.1          16.10.2022
+**Current** 
 
-**Past**      2.0.0,         13.10.2022
+              2.0.1          16.10.2022
+
+**Past** 
+    
+              2.0.0,         13.10.2022
 
               1.1.0, (b5)    11.09.2022
 
