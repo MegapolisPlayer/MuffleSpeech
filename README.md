@@ -57,17 +57,21 @@ To say that this project is not optimized is an understatment. This was slapped 
 
 **Current** 
 
-              2.0.1          16.10.2022
+`2.0.2         16.10.2022`
 
 **Past** 
-    
-              2.0.0,         13.10.2022
 
-              1.1.0, (b5)    11.09.2022
-
-              1.0.0, (b4)    25.08.2022
+`2.0.1,         16.10.2022`
  
-**Prototype** 0.0.0, (b1)    15.08.2022	
+`2.0.0,         13.10.2022`
+
+`1.1.0, (b5)    11.09.2022`
+
+`1.0.0, (b4)    25.08.2022`
+ 
+**Prototype**
+ 
+`0.0.0, (b1)    15.08.2022`
 
 [![CC BY 4.0][cc-by-image]][cc-by]
 
