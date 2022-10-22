@@ -57,9 +57,11 @@ To say that this project is not optimized is an understatment. This was slapped 
 
 **Current** 
 
-`2.0.2         16.10.2022`
+`2.0.3         22.10.2022`
 
 **Past** 
+
+`2.0.2,         17.10.2022`
 
 `2.0.1,         16.10.2022`
  
