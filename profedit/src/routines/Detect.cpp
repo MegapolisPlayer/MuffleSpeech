@@ -10,8 +10,8 @@ namespace ProfileEditor {
 		this->Type = aType;
 	}
 	void FileMap::Print() const {
+		std::cout << "--Detected Files:-------------\n";
 		for(uint64_t lId = 0; lId < this->Map.size(); lId++) {
-			std::cout << "--Detected Files:-------------\n";
 			switch(this->Map[lId].Type) {
 				case(FileMapEntryType::MFSP1):
 					SetColor(COLOR_LIGHT_RED);
